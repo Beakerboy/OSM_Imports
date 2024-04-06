@@ -26,9 +26,13 @@ jobs:
     - name: Install dependencies
       run: |
         npm install -g geojsontoosm
-        geojsontoosm Ky_Public_Hunting_Areas.geojson > file.osm
-        cat file.osm
         python -m pip install --upgrade pip
         pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@add-cicd'
+    - name: JS Convert
+      run: |
+        geojsontoosm Ky_Public_Hunting_Areas.geojson > file.osm
+        cat file.osm
+    - name: Python Convert
+      run: |
         python -m geojson2osm Ky_Public_Hunting_Areas.geojson out.xml
         cat out.xml
