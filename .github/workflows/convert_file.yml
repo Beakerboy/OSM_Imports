@@ -25,13 +25,13 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        npm install -g geojsontoosm
+#        npm install -g geojsontoosm
         python -m pip install --upgrade pip
         pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@patch-1'
-    - name: JS Convert
-      run: |
-        geojsontoosm featuresets/South_Shore_WMA.geojson > file.osm
-        cat file.osm
+#    - name: JS Convert
+#      run: |
+#        geojsontoosm features/South_Shore_WMA.geojson > file.osm
+#        cat file.osm
     - name: Python Convert
       run: |
         mkdir osm
