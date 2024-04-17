@@ -38,7 +38,7 @@ jobs:
         mkdir osm
         python -m geojson2osm featuresets/South_Shore_WMA.geojson osm/South_Shore_WMA.xml
         cat osm/South_Shore_WMA.xml
-    - name: Commit files # commit the output folder
+    - name: Commit files
       run: |
         git add features/*
         git commit -m "Add files"
@@ -46,4 +46,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
+          force: true
