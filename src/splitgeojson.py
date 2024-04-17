@@ -9,7 +9,7 @@ def split_geojson(geojson: dict) -> None:
         name = properties["AREANAME"]
       
         # Save the OSM XML data to a file
-        output = name.replace(" ", "_") + ".xml"
+        output = "features/" + name.replace(" ", "_") + ".geojson"
         with open(output, 'w') as fp:
             json.dump(feature, fp)
         print('Wrote ' + output)
