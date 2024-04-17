@@ -34,5 +34,5 @@ jobs:
         cat file.osm
     - name: Python Convert
       run: |
-        python -m geojson2osm Ky_Public_Hunting_Areas.geojson out.xml
+        python -m geojson2osm South_Shore_WMA.geojson out.xml
         cat out.xml
