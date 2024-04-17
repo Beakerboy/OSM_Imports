@@ -20,8 +20,8 @@ def main() -> None:
     input = sys.argv[1]
     geojson_data = json.load(open(input))
 
-    # Convert the GeoJSON data to OSM XML format
-    osm_xml = split_geojson(geojson_data)
+    # Convert a FeatureSet file to separate feature files
+    split_geojson(geojson_data)
 
 
 if __name__ == '__main__':
