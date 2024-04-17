@@ -44,6 +44,8 @@ jobs:
 #        force: true
     - name: Convert json to xml
       run: |
+        mkdir broken
+        mv features/Pennyrile_State_Forest.geojson broken
         mkdir osm
         mkdir osm/features
         for file in features/*; do
