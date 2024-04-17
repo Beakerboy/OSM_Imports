@@ -28,24 +28,22 @@ jobs:
         # npm install -g geojsontoosm
         python -m pip install --upgrade pip
         pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@patch-1'
-#    - name: JS Convert
+#   - name: Split FeatureSet
+#     run: |
+#      python src/splitgeojson.py Ky_Public_Hunting_Areas.geojson
+#    - name: Commit files
 #      run: |
-#        geojsontoosm features/South_Shore_WMA.geojson > file.osm
-#        cat file.osm
-    - name: Python Convert
+#        git config --local user.email "beakerboy99@yahoo.com"
+#        git config --local user.name "Kevin"
+#        git add features/*
+#        git commit -m "Add files"
+#    - name: Push changes # push the output folder to your repo
+#      uses: ad-m/github-push-action@master
+#      with:
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+#        force: true
+    - name: Convert json to xml
       run: |
-        python src/splitgeojson.py Ky_Public_Hunting_Areas.geojson
         mkdir osm
         python -m geojson2osm featuresets/South_Shore_WMA.geojson osm/South_Shore_WMA.xml
         cat osm/South_Shore_WMA.xml
-    - name: Commit files
-      run: |
-        git config --local user.email "beakerboy99@yahoo.com"
-        git config --local user.name "Kevin"
-        git add features/*
-        git commit -m "Add files"
-    - name: Push changes # push the output folder to your repo
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
