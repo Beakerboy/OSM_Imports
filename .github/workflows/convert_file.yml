@@ -34,7 +34,7 @@ jobs:
 #        cat file.osm
     - name: Python Convert
       run: |
-        python -m src/splitgeojson.py Ky_Public_Hunting_Areas.geojson
+        python src/splitgeojson.py Ky_Public_Hunting_Areas.geojson
         mkdir osm
         python -m geojson2osm featuresets/South_Shore_WMA.geojson osm/South_Shore_WMA.xml
         cat osm/South_Shore_WMA.xml
