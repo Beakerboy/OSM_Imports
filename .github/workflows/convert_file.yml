@@ -40,6 +40,8 @@ jobs:
         cat osm/South_Shore_WMA.xml
     - name: Commit files
       run: |
+        git config --local user.email "beakerboy99@yahoo.com"
+        git config --local user.name "Kevin"
         git add features/*
         git commit -m "Add files"
     - name: Push changes # push the output folder to your repo
