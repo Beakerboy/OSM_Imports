@@ -45,5 +45,8 @@ jobs:
     - name: Convert json to xml
       run: |
         mkdir osm
-        python -m geojson2osm featuresets/South_Shore_WMA.geojson osm/South_Shore_WMA.xml
+        for file in features/*; do
+          [ -f "$file" ] || continue
+          python -m geojson2osm  -- "$file" "osm/$file.xml"
+        done
         cat osm/South_Shore_WMA.xml
