@@ -30,7 +30,7 @@ jobs:
         pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@add-cicd'
     - name: JS Convert
       run: |
-        geojsontoosm Ky_Public_Hunting_Areas.geojson > file.osm
+        geojsontoosm features/South_Shore_WMA.geojson > file.osm
         cat file.osm
     - name: Python Convert
       run: |
