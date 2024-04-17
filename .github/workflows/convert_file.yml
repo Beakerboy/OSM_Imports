@@ -27,7 +27,7 @@ jobs:
       run: |
         # npm install -g geojsontoosm
         python -m pip install --upgrade pip
-        pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@patch-1'
+        pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@patch-2'
 #   - name: Split FeatureSet
 #     run: |
 #      python src/splitgeojson.py Ky_Public_Hunting_Areas.geojson
@@ -54,3 +54,4 @@ jobs:
           python -m geojson2osm "$file" "osm/$file.xml"
         done
         cat osm/features/South_Shore_WMA.xml
+        python -m geojsnon2osm features/Pennyrile_State_Forest.geojson out.xml
