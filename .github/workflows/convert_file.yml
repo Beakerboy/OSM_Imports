@@ -47,6 +47,6 @@ jobs:
         mkdir osm
         for file in features/*; do
           [ -f "$file" ] || continue
-          python -m geojson2osm  -- "$file" "osm/$file.xml"
+          python -m geojson2osm "$file" "osm/$file.xml"
         done
         cat osm/South_Shore_WMA.xml
