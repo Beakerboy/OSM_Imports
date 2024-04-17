@@ -14,7 +14,7 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 
-def split_geojson(geojson: dict) -> None
+def split_geojson(geojson: dict) -> None:
     features = geojson.get("features", [geojson])
     for feature in features:
         properties = feature.get("properties", {})
