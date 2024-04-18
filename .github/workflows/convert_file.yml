@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@patch-2'
+        pip install 'geojson2osm @ git+https://github.com/Beakerboy/geojson2osm.git@patch-3'
 #   - name: Split FeatureSet
 #     run: |
 #      python src/splitgeojson.py Ky_Public_Hunting_Areas.geojson
@@ -43,8 +43,6 @@ jobs:
 #        force: true
     - name: Convert json to xml
       run: |
-        mkdir broken
-        mv features/Pennyrile_State_Forest.geojson broken
         mkdir osm
         mkdir osm/features
         for file in features/*; do
@@ -53,4 +51,3 @@ jobs:
           python -m geojson2osm "$file" "osm/$file.xml"
         done
         cat osm/features/South_Shore_WMA.geojson.xml
-        python -m geojson2osm broken/Pennyrile_State_Forest.geojson out.xml
