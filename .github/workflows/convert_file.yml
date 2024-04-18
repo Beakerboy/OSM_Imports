@@ -50,4 +50,14 @@ jobs:
           echo $file
           python -m geojson2osm "$file" "osm/$file.xml"
         done
-        cat osm/features/South_Shore_WMA.geojson.xml
+    - name: Commit files
+      run: |
+        git config --local user.email "beakerboy99@yahoo.com"
+        git config --local user.name "Kevin"
+        git add osm/*
+        git commit -m "Add osm files"
+    - name: Push changes # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
