@@ -53,5 +53,5 @@ jobs:
           echo $file
           python -m geojson2osm "$file" "osm/$file.xml"
         done
-        cat osm/features/South_Shore_WMA.xml
+        cat osm/features/South_Shore_WMA.geojson.xml
         python -m geojsnon2osm features/Pennyrile_State_Forest.geojson out.xml
