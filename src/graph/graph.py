@@ -27,7 +27,7 @@
 
 # Code taken from python-graph http://code.google.com/p/python-graph/
 
-import traversal
+from graph.traversal import traversal
 
 class GraphError(RuntimeError):
     """
