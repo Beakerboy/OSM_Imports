@@ -242,8 +242,8 @@ class Changeset:
             '/api/0.6/changeset/' +
             self.id + '/close','PUT',headers=headers)
         if resp.status != 200:
-            print "Error closing changeset " + str(self.id) + ":" + str(resp.status)
-        print "Closed changeset: %s" % self.id
+            print("Error closing changeset " + str(self.id) + ":" + str(resp.status))
+        print("Closed changeset: " + str(self.id))
         self.closed = True
 
     def createDiffSet(self):
@@ -305,7 +305,7 @@ class DiffSet:
         xml = ET.Element('osmChange')
         for elem in self.elems.values():
             xml.append(elem)
-        print "Uploading to changeset %s" % self.changeset.id
+        print("Uploading to changeset " + str(self.changeset.id))
 
         xmlstr = ET.tostring(xml)
         #f = open("/tmp/%s.osc" % self.changeset.id, 'a')
@@ -318,8 +318,8 @@ class DiffSet:
                                             '/upload',
                                             'POST', xmlstr,headers=headers)
         if resp.status != 200:
-            print "Error uploading changeset:" + str(resp.status)
-            print content
+            print("Error uploading changeset:" + str(resp.status))
+            print(content)
             exit(-1)
         else:
             self.processResult(content)
