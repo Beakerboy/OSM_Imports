@@ -331,7 +331,7 @@ class DiffSet:
     # Process them.
     def processResult(self,content):
         diffResult=ET.fromstring(content)
-        for child in diffResult.getchildren():
+        for child in list(diffResult):
             id_type = child.tag
             old_id=child.attrib['old_id']
             if 'new_id' in child.attrib:
