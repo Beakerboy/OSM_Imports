@@ -229,7 +229,7 @@ class Changeset:
             '/api/0.6/changeset/create','PUT',xml,headers=headers)
         if resp.status != 200:
             raise APIError('Error creating changeset:' + str(resp.status))
-        self.id = content
+        self.id = content.decode("utf-8")
         print("Created changeset: " + str(self.id))
         self.opened = True
 
