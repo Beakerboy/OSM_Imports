@@ -82,16 +82,16 @@ class ImportProcessor:
 
         # Add a very loud warning to people who try to force osmChange files through
         for zomgOsmChange in ('add', 'delete', 'modify'):
-            for arglh in osmRoot.getiterator(zomgOsmChange):
+            for arglh in osmRoot.iter(zomgOsmChange):
                 raise XMLException("\nYou are processing an osmChange file with a <osm> root element.\nOSM FILES HOWEVER DO NOT HAVE <%s> ELEMENTS.\nYOU ARE PROBABLY TRYING TO UPLOAD A OSM CHANGE FILE\nDIRECTLY *DON'T DO THIS* IT WILL BREAK THINGS\nON THE SERVER AND TOM HUGHES WILL EAT YOUR FAMILY\n(YES REALLY)" % zomgOsmChange)
 
-        for elem in osmRoot.getiterator('member'):
+        for elem in osmRoot.iter('member'):
             if elem.attrib['type'] == 'relation':
                 relationSort = True
                 break
         
         for type in ('node','way'):
-            for elem in osmRoot.getiterator(type):
+            for elem in osmRoot.iter(type):
                 # If elem.id is already mapped we can skip this object
                 #
                 id=elem.attrib['id']
@@ -102,7 +102,7 @@ class ImportProcessor:
                 # then the ids need to be remapped.
                 if elem.tag=='way':
                     count=0
-                    for child in elem.getiterator('nd'):
+                    for child in elem.iter('nd'):
                         count=count + 1
                         if count > 2000:
                             raise XMLException("\nnode count >= 2000 in <%s>\n" % elem.attrib['id'])
@@ -113,7 +113,7 @@ class ImportProcessor:
                 
                 self.addToChangeset(elem)
 
-        for elem in osmRoot.getiterator('relation'):
+        for elem in osmRoot.iter('relation'):
             if relationSort:
                 relationStore[elem.attrib['id']] = elem
             else:
@@ -127,7 +127,7 @@ class ImportProcessor:
             gr = pygraph.digraph()
             gr.add_nodes(relationStore.keys())
             for id in relationStore:
-                for child in relationStore[id].getiterator('member'):
+                for child in relationStore[id].iter('member'):
                     if child.attrib['type'] == 'relation':
                         gr.add_edge(id, child.attrib['ref'])
 
@@ -146,7 +146,7 @@ class ImportProcessor:
         self.currentChangeset.close() # (uploads any remaining diffset changes)
 
     def updateRelationMemberIds(self, elem):
-        for child in elem.getiterator('member'):
+        for child in elem.iter('member'):
             if child.attrib.has_key('ref'):
                 old_id=child.attrib['ref']
                 old_id_type = child.attrib['type']
