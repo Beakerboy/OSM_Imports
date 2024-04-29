@@ -15,9 +15,6 @@ jobs:
         python-version: ["3.11"]
 
     steps:
-    -shell: bash
-      env:
-        SUPER_SECRET: ${{ secrets.OSM_PASS }}
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
@@ -28,6 +25,8 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install httplib2
     - name: Import File
+      env:
+        SUPER_SECRET: ${{ secrets.OSM_PASS }}
       run: |
         python src/bulk_upload.py -u Beakerboy_Import -c "BallardWMA" -p $SUPER_SECRET -i osm/new/Ballard_WMA.geojson.xml
         cat inputfile.osm.db
