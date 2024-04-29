@@ -26,5 +26,5 @@ jobs:
         python -m pip install httplib2
     - name: Import File
       run: |
-        python src/bulk_upload.py -i osm/new/Ballard_WMA.geojson.xml
+        python src/bulk_upload.py -u Beakerboy_Import -c "BallardWMA" -i osm/new/Ballard_WMA.geojson.xml
         cat inputfile.osm.db
