@@ -106,9 +106,9 @@ class ImportProcessor:
                         count=count + 1
                         if count > 2000:
                             raise XMLException("\nnode count >= 2000 in <%s>\n" % elem.attrib['id'])
-                        if child.attrib.has_key('ref'):
+                        if 'ref' in child.attrib:
                             old_id=child.attrib['ref']
-                            if idMap['node'].has_key(old_id):
+                            if old_id in idMap['node']:
                                 child.attrib['ref'] = self.idMap['node'][old_id]
                 
                 self.addToChangeset(elem)
