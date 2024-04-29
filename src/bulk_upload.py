@@ -49,7 +49,7 @@ except ImportError:
 __version__ = "3.11 ? git"
 user_agent = "bulk_upload.py/%s Python/%s" % (__version__.split()[2], sys.version.split()[0])
 
-api_host='http://api.openstreetmap.org'
+api_host='https://api.openstreetmap.org'
 #api_host='http://api06.dev.openstreetmap.org'
 headers = {
     'User-Agent' : user_agent,
