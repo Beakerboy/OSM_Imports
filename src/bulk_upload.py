@@ -230,7 +230,7 @@ class Changeset:
         if resp.status != 200:
             raise APIError('Error creating changeset:' + str(resp.status))
         self.id = content
-        print "Created changeset: %s" % self.id
+        print("Created changeset: " + str(self.id))
         self.opened = True
 
     def close(self):
