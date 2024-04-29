@@ -23,5 +23,4 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        wget https://raw.githubusercontent.com/openstreetmap/svn-archive/main/applications/utils/import/bulk_upload_06/bulk_upload.py
-        python bulk_upload.py -h
+        python src/bulk_upload.py -h
