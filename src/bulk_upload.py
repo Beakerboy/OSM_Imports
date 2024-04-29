@@ -95,7 +95,7 @@ class ImportProcessor:
                 # If elem.id is already mapped we can skip this object
                 #
                 id=elem.attrib['id']
-                if self.idMap[type].has_key(id):
+                if id in self.idMap[type]:
                     continue
                 #
                 # If elem contains nodes, ways or relations as a child
@@ -117,7 +117,7 @@ class ImportProcessor:
             if relationSort:
                 relationStore[elem.attrib['id']] = elem
             else:
-                if self.idMap['relation'].has_key(elem.attrib['id']):
+                if elem.attrib['id'] in self.idMap['relation']:
                     continue
                 else:
                     self.updateRelationMemberIds(elem)
@@ -139,7 +139,7 @@ class ImportProcessor:
             for relation in gr.traversal('root', 'post'):
                 if relation == 'root': continue
                 r = relationStore[relation]
-                if self.idMap['relation'].has_key(r.attrib['id']): continue
+                if r.attrib['id'] in self.idMap['relation']: continue
                 self.updateRelationMemberIds(r)
                 self.addToChangeset(r)
 
@@ -147,17 +147,17 @@ class ImportProcessor:
 
     def updateRelationMemberIds(self, elem):
         for child in elem.iter('member'):
-            if child.attrib.has_key('ref'):
+            if 'ref' in child.attrib:
                 old_id=child.attrib['ref']
                 old_id_type = child.attrib['type']
-                if self.idMap[old_id_type].has_key(old_id):
+                if old_id in self.idMap[old_id_type]:
                     child.attrib['ref'] = self.idMap[old_id_type][old_id]
 
     def createChangeset(self):
         self.currentChangeset = Changeset(tags=self.tags, idMap=self.idMap, httpObj=self.httpObj)
 
     def addToChangeset(self, elem):
-        if elem.attrib.has_key('action'):
+        if 'action' in elem.attrib:
             action = elem.attrib['action']
         else:
             action = 'create'
@@ -334,7 +334,7 @@ class DiffSet:
         for child in diffResult.getchildren():
             id_type = child.tag
             old_id=child.attrib['old_id']
-            if child.attrib.has_key('new_id'):
+            if 'new_id' in child.attrib:
                 new_id=child.attrib['new_id']
                 self.idMap[id_type][old_id]=new_id
             else:
