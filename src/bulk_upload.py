@@ -219,7 +219,7 @@ class Changeset:
         self.createDiffSet()
 
     def open(self):
-        self.id = 150715223
+        self.id = '150715223'
         
         createReq = ET.Element('osm', version="0.6")
         change = ET.SubElement(createReq, 'changeset')
