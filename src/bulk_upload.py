@@ -227,7 +227,7 @@ class Changeset:
             ET.SubElement(change, 'tag', k=tag, v=self.tags[tag])
         
         xml = ET.tostring(createReq)
-        if self.id is None
+        if self.id is None:
             resp,content = self.httpObj.request(api_host +
                 '/api/0.6/changeset/create','PUT',xml,headers=headers)
             if resp.status != 200:
