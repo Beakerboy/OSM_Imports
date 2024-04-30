@@ -344,7 +344,7 @@ class DiffSet:
     def getItemLimit(self):
         # This is an arbitrary self-imposed limit (that must be below the changeset limit)
         # so to limit upload times to sensible chunks.
-        return 1000
+        return 3000
 
 
 if __name__ == "__main__":
