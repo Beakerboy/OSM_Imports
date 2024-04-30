@@ -183,14 +183,14 @@ class IdMap:
     def load(self):
         try:
             if os.stat(self.filename):
-                f=open(self.filename, "r")
+                f=open(self.filename, "rb")
                 self.idMap=pickle.load(f)
                 f.close()
         except:
             pass
 
     def save(self):
-        f=open(self.filename+".tmp","w")
+        f=open(self.filename+".tmp","wb")
         pickle.dump(self.idMap,f)
         f.close()
         try:
