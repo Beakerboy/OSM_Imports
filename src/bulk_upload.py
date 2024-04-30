@@ -315,6 +315,7 @@ class DiffSet:
         #f.write(xmlstr)
         #f.write("\n\n")
         #f.close()
+        global skip
         if not skip:
             resp,content = self.httpObj.request(api_host +
                                             '/api/0.6/changeset/'+self.changeset.id+
