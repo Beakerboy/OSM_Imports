@@ -319,7 +319,7 @@ class DiffSet:
                                             'POST', xmlstr,headers=headers)
         if resp.status != 200:
             print("Error uploading changeset:" + str(resp.status))
-            print(content)
+            print(content.decode("utf-8"))
             exit(-1)
         else:
             self.processResult(content)
