@@ -45,7 +45,7 @@ try:
     import pygraph
 except ImportError:
     from graph import graph as pygraph
-
+skip = True
 __version__ = "3.11 ? git"
 user_agent = "bulk_upload.py/%s Python/%s" % (__version__.split()[2], sys.version.split()[0])
 
@@ -219,17 +219,20 @@ class Changeset:
         self.createDiffSet()
 
     def open(self):
+        self.id = 150715223
+        
         createReq = ET.Element('osm', version="0.6")
         change = ET.SubElement(createReq, 'changeset')
         for tag in self.tags:
             ET.SubElement(change, 'tag', k=tag, v=self.tags[tag])
         
         xml = ET.tostring(createReq)
-        resp,content = self.httpObj.request(api_host +
-            '/api/0.6/changeset/create','PUT',xml,headers=headers)
-        if resp.status != 200:
-            raise APIError('Error creating changeset:' + str(resp.status))
-        self.id = content.decode("utf-8")
+        if self.id is None
+            resp,content = self.httpObj.request(api_host +
+                '/api/0.6/changeset/create','PUT',xml,headers=headers)
+            if resp.status != 200:
+                raise APIError('Error creating changeset:' + str(resp.status))
+            self.id = content.decode("utf-8")
         print("Created changeset: " + str(self.id))
         self.opened = True
 
@@ -312,19 +315,20 @@ class DiffSet:
         #f.write(xmlstr)
         #f.write("\n\n")
         #f.close()
-
-        resp,content = self.httpObj.request(api_host +
+        if not skip:
+            resp,content = self.httpObj.request(api_host +
                                             '/api/0.6/changeset/'+self.changeset.id+
                                             '/upload',
                                             'POST', xmlstr,headers=headers)
-        if resp.status != 200:
-            print("Error uploading changeset:" + str(resp.status))
-            print(content.decode("utf-8"))
-            exit(-1)
-        else:
-            self.processResult(content)
-            self.idMap.save()
-            self.closed = True
+            if resp.status != 200:
+                print("Error uploading changeset:" + str(resp.status))
+                print(content.decode("utf-8"))
+                exit(-1)
+            else:
+                self.processResult(content)
+                self.idMap.save()
+                self.closed = True
+            skip = False
 
     # Uploading a diffset returns a <diffResult> containing elements
     # that map the old id to the new id
