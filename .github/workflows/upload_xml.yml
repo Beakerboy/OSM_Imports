@@ -28,7 +28,7 @@ jobs:
       env:
         SUPER_SECRET: ${{ secrets.OSM_PASS }}
       run: |
-        python src/bulk_upload.py -u Beakerboy_Import -c "Import WMA" -p $SUPER_SECRET -i osm/new/Beaver_Creek_WMA.geojson.xml
+        python src/bulk_upload.py -u Beakerboy_Import -c "Import WMA" -p $SUPER_SECRET -i osm/new/Beechy_Creek_WMA.geojson.xml
     - name: View Logfile
       run: |
         cat inputfile.osm.db
