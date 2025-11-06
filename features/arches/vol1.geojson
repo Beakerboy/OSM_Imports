@@ -29,7 +29,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6666666666667, 37.8354166666667]},"properties":{"name": "Ravens Window"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5611388888889, 37.7698055555556]},"properties":{"name": "Rock Bridge"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7219722222222, 37.7820277777778]},"properties":{"name": "Sand Gap Arch"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7217777777778, 37.8727777777778]},"properties":{"name": "Shore Creek Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7217777777778, 37.8727777777778]},"properties":{"name": "Short Creek Arch"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6239444444444, 37.7870833333333]},"properties":{"name": "Silvermine Arch"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5786944444444, 37.8189166666667]},"properties":{"name": "Sky Bridge"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7147222222222, 37.7921111111111]},"properties":{"name": "Slade Twin Arches West"}},
