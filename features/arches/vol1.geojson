@@ -1,47 +1,50 @@
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.83915, -83.6122333333333]},"properties":{"name": "Adena Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8000277777778, -83.5926944444444]},"properties":{"name": "Angel Windows"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7881944444444, -83.7176111111111]},"properties":{"name": "Boiling Branch Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8122777777778, -83.5795555555556]},"properties":{"name": "Castle Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7934722222222, -83.6944166666667]},"properties":{"name": "Clear Branch Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7573055555556, -83.66525]},"properties":{"name": "Dark Hollow Twin Arches"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7839166666667, -83.5653333333333]},"properties":{"name": "Dog Fork Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8372222222222, -83.6844444444445]},"properties":{"name": "Double Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8109722222222, -83.6584722222222]},"properties":{"name": "Gray'a Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8198055555556, -83.6210833333333]},"properties":{"name": "Half Moon Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7773055555556, -83.6745]},"properties":{"name": "Henson's Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7881666666667, -83.6399166666667]},"properties":{"name": "Hidden Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8429722222222, -83.6160833333333]},"properties":{"name": "Indian Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7911111111111, -83.7202777777778]},"properties":{"name": "Lost Camp Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7688888888889, -83.6551388888889]},"properties":{"name": "Mill Creek Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7689444444444, -83.6550833333333]},"properties":{"name": "Mill Creek Window 1"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.76875, -83.6555]},"properties":{"name": "Mill Creek Window 2"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8074722222222, -83.5968333333333]},"properties":{"name": "Moonbeam Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.82075, -83.5717222222222]},"properties":{"name": "Moonshiners' Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8208055555556, -83.7101111111111]},"properties":{"name": "Nada Twin Arches larger"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8206666666667, -83.7104722222222]},"properties":{"name": "Nada Twin Arches smaller"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7731111111111, -83.6853611111111]},"properties":{"name": "Natural Bridge"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7778888888889, -83.6836666666667]},"properties":{"name": "Needle's Eye"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7803333333333, -83.6851388888889]},"properties":{"name": "Owl's Window"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.82725, -83.6195277777778]},"properties":{"name": "Princess Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8354166666667, -83.6666666666667]},"properties":{"name": "Ravens Window"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7698055555556, -83.5611388888889]},"properties":{"name": "Rock Bridge"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7820277777778, -83.7219722222222]},"properties":{"name": "Sand Gap Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8727777777778, -83.7217777777778]},"properties":{"name": "Shore Creek Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7870833333333, -83.6239444444444]},"properties":{"name": "Silvermine Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8189166666667, -83.5786944444444]},"properties":{"name": "Sky Bridge"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7921111111111, -83.7147222222222]},"properties":{"name": "Slade Twin Arches West"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7925, -83.7136944444444]},"properties":{"name": "Slade Twin Arches East"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.79675, -83.7294444444444]},"properties":{"name": "South Fork Twin Arches"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7963333333333, -83.7277222222222]},"properties":{"name": "South Fork Unnamed Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.82275, -83.6961388888889]},"properties":{"name": "Star Gap Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7879722222222, -83.5678888888889]},"properties":{"name": "Sunset Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.699, -83.6665833333333]},"properties":{"name": "Suzanna's Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7900555555556, -83.5684166666667]},"properties":{"name": "Timmons' Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7774166666667, -83.5672777777778]},"properties":{"name": "Turtle Back Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7526388888889, -83.7029722222222]},"properties":{"name": "Twilight Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8098888888889, -83.5921111111111]},"properties":{"name": "Whistling Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7532777777778, -83.7000555555556]},"properties":{"name": "White's Branch Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7824444444444, -83.6617777777778]},"properties":{"name": "Whittleton Arch"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7890833333333, -83.5671111111111]},"properties":{"name": "Wildcat Windows"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7325833333333, -83.6609166666667]},"properties":{"name": "Zoo Arch 1"}}
-{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7317222222222, -83.6608055555556]},"properties":{"name": "Zoo Arch 2"}}
+{
+  "type": "FeatureCollection",
+  "features": [
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.83915, -83.6122333333333]},"properties":{"name": "Adena Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8000277777778, -83.5926944444444]},"properties":{"name": "Angel Windows"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7881944444444, -83.7176111111111]},"properties":{"name": "Boiling Branch Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8122777777778, -83.5795555555556]},"properties":{"name": "Castle Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7934722222222, -83.6944166666667]},"properties":{"name": "Clear Branch Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7573055555556, -83.66525]},"properties":{"name": "Dark Hollow Twin Arches"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7839166666667, -83.5653333333333]},"properties":{"name": "Dog Fork Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8372222222222, -83.6844444444445]},"properties":{"name": "Double Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8109722222222, -83.6584722222222]},"properties":{"name": "Gray'a Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8198055555556, -83.6210833333333]},"properties":{"name": "Half Moon Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7773055555556, -83.6745]},"properties":{"name": "Henson's Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7881666666667, -83.6399166666667]},"properties":{"name": "Hidden Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8429722222222, -83.6160833333333]},"properties":{"name": "Indian Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7911111111111, -83.7202777777778]},"properties":{"name": "Lost Camp Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7688888888889, -83.6551388888889]},"properties":{"name": "Mill Creek Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7689444444444, -83.6550833333333]},"properties":{"name": "Mill Creek Window 1"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.76875, -83.6555]},"properties":{"name": "Mill Creek Window 2"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8074722222222, -83.5968333333333]},"properties":{"name": "Moonbeam Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.82075, -83.5717222222222]},"properties":{"name": "Moonshiners' Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8208055555556, -83.7101111111111]},"properties":{"name": "Nada Twin Arches larger"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8206666666667, -83.7104722222222]},"properties":{"name": "Nada Twin Arches smaller"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7731111111111, -83.6853611111111]},"properties":{"name": "Natural Bridge"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7778888888889, -83.6836666666667]},"properties":{"name": "Needle's Eye"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7803333333333, -83.6851388888889]},"properties":{"name": "Owl's Window"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.82725, -83.6195277777778]},"properties":{"name": "Princess Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8354166666667, -83.6666666666667]},"properties":{"name": "Ravens Window"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7698055555556, -83.5611388888889]},"properties":{"name": "Rock Bridge"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7820277777778, -83.7219722222222]},"properties":{"name": "Sand Gap Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8727777777778, -83.7217777777778]},"properties":{"name": "Shore Creek Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7870833333333, -83.6239444444444]},"properties":{"name": "Silvermine Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8189166666667, -83.5786944444444]},"properties":{"name": "Sky Bridge"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7921111111111, -83.7147222222222]},"properties":{"name": "Slade Twin Arches West"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7925, -83.7136944444444]},"properties":{"name": "Slade Twin Arches East"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.79675, -83.7294444444444]},"properties":{"name": "South Fork Twin Arches"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7963333333333, -83.7277222222222]},"properties":{"name": "South Fork Unnamed Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.82275, -83.6961388888889]},"properties":{"name": "Star Gap Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7879722222222, -83.5678888888889]},"properties":{"name": "Sunset Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.699, -83.6665833333333]},"properties":{"name": "Suzanna's Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7900555555556, -83.5684166666667]},"properties":{"name": "Timmons' Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7774166666667, -83.5672777777778]},"properties":{"name": "Turtle Back Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7526388888889, -83.7029722222222]},"properties":{"name": "Twilight Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.8098888888889, -83.5921111111111]},"properties":{"name": "Whistling Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7532777777778, -83.7000555555556]},"properties":{"name": "White's Branch Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7824444444444, -83.6617777777778]},"properties":{"name": "Whittleton Arch"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7890833333333, -83.5671111111111]},"properties":{"name": "Wildcat Windows"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7325833333333, -83.6609166666667]},"properties":{"name": "Zoo Arch 1"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[37.7317222222222, -83.6608055555556]},"properties":{"name": "Zoo Arch 2"}}]}
