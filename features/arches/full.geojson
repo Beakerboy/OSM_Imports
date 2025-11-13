@@ -9,7 +9,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.66525, 37.7573055555556]},"properties":{"name": "Dark Hollow Twin Arches","Vol":"1"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5653333333333, 37.7839166666667]},"properties":{"name": "Dog Fork Arch","Vol":"1"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6844444444445, 37.8372222222222]},"properties":{"name": "Double Arch","Vol":"1"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6584722222222, 37.8109722222222]},"properties":{"name": "Gray'a Arch","Vol":"1"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6584722222222, 37.8165277777778]},"properties":{"name": "Gray's Arch","Vol":"1"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6210833333333, 37.8198055555556]},"properties":{"name": "Half Moon Arch","Vol":"1"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6745, 37.7773055555556]},"properties":{"name": "Henson's Arch","Vol":"1"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6399166666667, 37.7881666666667]},"properties":{"name": "Hidden Arch","Vol":"1"}},
