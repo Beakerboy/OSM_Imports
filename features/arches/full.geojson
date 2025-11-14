@@ -428,7 +428,6 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7016666666667, 37.8780555555556]},"properties":{"name": "Three Chimneys False Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6790833333333, 37.8192777777778]},"properties":{"name": "Three Circles Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7752222222222, 37.6724722222222]},"properties":{"name": "Tripod Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83, 37]},"properties":{"name": "Tripod Park Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5702777777778, 37.8910555555556]},"properties":{"name": "Two Cracks Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6784444444445, 37.8018611111111]},"properties":{"name": "Upper Anvil Window","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7655277777778, 37.6341111111111]},"properties":{"name": "Upper Cliff Arch","Vol":"5"}},
