@@ -424,7 +424,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7725, 37.6580555555556]},"properties":{"name": "Split and Pillar Arches","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5920833333333, 37.7822222222222]},"properties":{"name": "The Knees","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.62725, 37.8281388888889]},"properties":{"name": "The Thinker False Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7717777777778, 37.65425]},"properties":{"name": "The "Y" Arch","Vol":"5"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7717777777778, 37.65425]},"properties":{"name": "The Y Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7016666666667, 37.8780555555556]},"properties":{"name": "Three Chimneys False Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6790833333333, 37.8192777777778]},"properties":{"name": "Three Circles Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7752222222222, 37.6724722222222]},"properties":{"name": "Tripod Arch","Vol":"5"}},
