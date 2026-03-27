@@ -676,7 +676,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5844694444444, 37.7654805555556]},"properties":{"name": "Heart Arch","Vol":"7"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6144555555556, 37.780625]},"properties":{"name": "High Eye Arch","Vol":"7"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6136638888889, 37.789125]},"properties":{"name": "High Lonesome Window","Vol":"7"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6743694444445, 37.6759277777778]},"properties":{"name": "Hominy Hole Arch","Vol":"7"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7410361111111, 37.6759277777778]},"properties":{"name": "Hominy Hole Arch","Vol":"7"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7405416666667, 37.6759611111111]},"properties":{"name": "Hominy Hole Shelf Arch","Vol":"7"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6095638888889, 37.7745027777778]},"properties":{"name": "Hoodooed Hoodoo Bridge","Vol":"7"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7122472222222, 37.6761944444444]},"properties":{"name": "Intersection Arch","Vol":"7"}},
