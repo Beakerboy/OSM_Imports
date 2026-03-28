@@ -443,7 +443,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6293333333333, 37.8542777777778]},"properties":{"name": "Wolfpen Fortress False Arch 5","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6293333333333, 37.8546388888889]},"properties":{"name": "Wolfpen Fortress Arch 6-7","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6611666666667, 37.8983055555556]},"properties":{"name": "Woodrat Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7717777777778, 37.3209722222222]},"properties":{"name": "Y Base Pillar","Vol":"5"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7717777777778, 37.6543055555556]},"properties":{"name": "Y Base Pillar","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6099444444444, 37.8381666666667]},"properties":{"name": "Adena Lost Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7770777777778, 37.7569472222222]},"properties":{"name": "Baker's Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.75145, 37.6273305555556]},"properties":{"name": "Bear Track Shelter Rib Arch","Vol":"6"}},
