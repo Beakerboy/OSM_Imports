@@ -383,7 +383,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7940555555556, 37.6545555555556]},"properties":{"name": "Glenn's Tomb Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7941111111111, 37.6545277777778]},"properties":{"name": "Glenn's Tomb Pillar Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7497777777778, 37.6234166666667]},"properties":{"name": "Goe Hideout Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7495555555556, 37.5733333333333]},"properties":{"name": "Goe Open Ceiling Arch","Vol":"5"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7495555555556, 37.6233333333333]},"properties":{"name": "Goe Open Ceiling Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7508055555556, 37.6229444444444]},"properties":{"name": "Goe Twin Columns Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7042777777778, 37.8650555555556]},"properties":{"name": "Gum Branch False Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6, 37.8321944444444]},"properties":{"name": "Hidden In The Cave Arch","Vol":"5"}},
