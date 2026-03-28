@@ -372,7 +372,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.798, 37.7758333333333]},"properties":{"name": "Cat Creek Pillar","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7983611111111, 37.7743888888889]},"properties":{"name": "Cat Creek Shelter Pillar","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7970277777778, 37.7736944444444]},"properties":{"name": "Cat Scratch Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7761944444444, 38.3961944444444]},"properties":{"name": "Cave Watcher Arch","Vol":"5"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7761944444444, 37.6461944444444]},"properties":{"name": "Cave Watcher Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7315, 37.6757777777778]},"properties":{"name": "Coal Bank Daughter Arch and Twin Arches","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5880555555556, 37.8113333333333]},"properties":{"name": "Cyclops Arch Complex","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5880555555556, 37.8113333333333]},"properties":{"name": "Cyclops West Arch","Vol":"5"}},
