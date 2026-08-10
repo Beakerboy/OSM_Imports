@@ -405,7 +405,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7318055555556, 37.6839722222222]},"properties":{"name": "Overpass Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5991388888889, 37.7972777777778]},"properties":{"name": "Pachyderm Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7344166666667, 37.6843333333333]},"properties":{"name": "Pack Rat Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7345, 37.68425]},"properties":{"name": "Pack Rat Pillar","Vol":"5"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5989167, 37.68425]},"properties":{"name": "Pack Rat Pillar","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7743611111111, 37.6605277777778]},"properties":{"name": "Pinnacle Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6800833333333, 37.8124444444444]},"properties":{"name": "Pioneer Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7098055555556, 37.6535833333333]},"properties":{"name": "Purgatory Arch","Vol":"5"}},
