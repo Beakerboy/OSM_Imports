@@ -413,7 +413,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7037222222222, 37.8653333333333]},"properties":{"name": "Puzzle Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5924444444444, 37.7823611111111]},"properties":{"name": "Reffits Window (Arch)","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7038888888889, 37.8853333333333]},"properties":{"name": "Room With A View Arch","Vol":"5"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.43225, 37.832]},"properties":{"name": "Sal-Bell Shelter Arch","Vol":"5"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5989167, 37.832]},"properties":{"name": "Sal-Bell Shelter Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7138055555556, 37.6536666666667]},"properties":{"name": "Shady Grove Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7765, 37.6517222222222]},"properties":{"name": "Side Drain Arch","Vol":"5"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6193055555556, 37.6794444444444]},"properties":{"name": "Skinner's Arch","Vol":"5"}},
