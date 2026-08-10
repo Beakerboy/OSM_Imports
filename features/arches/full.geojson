@@ -486,7 +486,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6678611111111, 37.8296944444444]},"properties":{"name": "Holey Hueco Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6556111111111, 37.8373333333333]},"properties":{"name": "Leaky Roof Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.706725, 37.8237277777778]},"properties":{"name": "Hollow Eyes Arch","Vol":"6"}},
-{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5947777777778, 37.8308333333333]},"properties":{"name": "Jenga Arch","Vol":"6"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5956111, 37.8308333333333]},"properties":{"name": "Jenga Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6571583333333, 37.8227722222222]},"properties":{"name": "King Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6303638888889, 37.7837555555556]},"properties":{"name": "Koomer Divide Arch","Vol":"6"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6725555555556, 37.7957222222222]},"properties":{"name": "Limonite Twin Arches","Vol":"6"}},
