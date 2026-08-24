@@ -841,6 +841,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6838055555556, 37.7662777777778]},"properties":{"name": "Beam Me Up Arch","Vol":"10"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6576916666667, 37.8180444444444]},"properties":{"name": "Behind The Stairs Arch","Vol":"10"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6808444444444, 37.7646111111111]},"properties":{"name": "Big Split False Arch","Vol":"10"}},
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.5696361111111, 37.8604833333333]},"properties":{"name": "Browns Branch Connector Arch","Vol":"10"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.7056055555556, 37.6114027777778]},"properties":{"name": "Cantilever Arch","Vol":"10"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6953972222222, 37.7991972222222]},"properties":{"name": "Clear Branch North Arch 1","Vol":"10"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6956472222222, 37.7990555555556]},"properties":{"name": "Clear Branch North Arch 2","Vol":"10"}},
