@@ -1076,8 +1076,7 @@
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.65059, 37.81379]},"properties":{"name": "King Bone-in-Ham Arch","Vol":"12"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.64984, 37.8133]},"properties":{"name": "King Pillar Arch","Vol":"12"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.65065, 37.81397]},"properties":{"name": "King Shelter Pillar Arch","Vol":"12"}},
-"{""type"":""Feature"",""geometry"": {""type"": ""Point"",""coordinates"":[-83.64595, 37.82143]},""properties"":{""name"": ""Landsaw/Landsome Branch
-Shelf Arch"",""Vol"":""12""}},"
+{"type":"Feature","geometry": {"type": "Point","coordinates":[-83.64595, 37.82143]},"properties":{"name": "Landsaw/Landsome Branch Shelf Arch","Vol":"12"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6299, 37.81459]},"properties":{"name": "Leaky Roof Pillar Arch","Vol":"12"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.65775, 37.78664]},"properties":{"name": "Leg Lamp Arch","Vol":"12"}},
 {"type":"Feature","geometry": {"type": "Point","coordinates":[-83.6720361, 37.7574806]},"properties":{"name": "Little Middle Fork Arch","Vol":"12"}},
